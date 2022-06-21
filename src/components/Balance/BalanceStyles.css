@@ -1,0 +1,18 @@
+
+/* width provisional. El resultat final serà inherit*/
+
+.balance-container{
+    width:30%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    background-color: var(--main-color-red);
+    border-radius: 15px;
+    padding:1em;
+}
+
+.logo{
+
+    height:25px;
+}
