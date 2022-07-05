@@ -1,12 +1,7 @@
-import "./App.css";
-import Balance from "./components/Balance/Balance";
-
+import MainScreen from "./components/MainScreen/MainScreen";
+import "./index.css";
 function App() {
-  return (
-    <div className="app-container">
-      <Balance />
-    </div>
-  );
+  return <MainScreen />;
 }
 
 export default App;

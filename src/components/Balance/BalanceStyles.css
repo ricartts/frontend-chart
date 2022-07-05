@@ -1,18 +1,28 @@
 
-/* width provisional. El resultat final serà inherit*/
 
 .balance-container{
-    width:30%;
+  width:95%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin:auto;
     background-color: var(--main-color-red);
     border-radius: 15px;
-    padding:1em;
+    padding:1em 1em;
 }
 
 .logo{
-
     height:25px;
+ 
+}
+@media only screen and (max-width: 375px) {
+.balance-container{
+  padding:1.2em 1em;
+  margin-bottom:1em;
+  width:90%;
+}
+
+ .logo{
+  height: 40px;
+ } 
 }
